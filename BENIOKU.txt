@@ -1,0 +1,25 @@
+SORU BANKASI - Kurulum
+
+Bu klasördeki dosyaların hepsi birlikte bir web sitesine yüklenmelidir.
+Uygulama index.html'e çift tıklanarak (dosyadan) çalışmaz; tarayıcılar
+veritabanına ve PDF okuyucuya ancak bir web adresinden izin verir.
+
+GitHub Pages ile (ücretsiz):
+1. github.com'da hesap açın, "New repository" ile yeni bir depo oluşturun
+   (örn. soru-bankasi), "Public" seçin.
+2. "uploading an existing file" bağlantısına tıklayıp bu klasörün İÇİNDEKİ
+   her şeyi (lib klasörü dahil) sürükleyip bırakın, "Commit changes" deyin.
+3. Settings > Pages > Branch: main / (root) > Save.
+4. Bir iki dakika sonra adres hazır olur:
+   https://KULLANICIADI.github.io/soru-bankasi/
+
+Telefonda: Chrome'da adresi açın > menü (⋮) > "Uygulamayı yükle".
+Bilgisayarda: Chrome adres çubuğundaki yükle simgesine tıklayın.
+
+Sorularınız ve istatistikleriniz sunucuya gitmez; her cihazın kendi
+tarayıcısında saklanır. Cihazlar arasında taşımak için Ayarlar >
+"Tümünü dışa aktar" / "İçe aktar" kullanın (veriler birleştirilir).
+
+Güncelleme yüklerken sw.js içindeki SURUM değerini artırın (sb-v1 -> sb-v2).
+
+lib/pdfjs: Mozilla pdf.js (Apache 2.0 lisansı, LICENSE dosyasına bakın).
